@@ -1,0 +1,72 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb, amsmath}
+\usepackage{fancyhdr,lastpage}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{stix}
+\usepackage{enumitem}
+\usepackage{listings}
+\tolerance 10000
+\headheight 0in
+\headsep 0in
+\evensidemargin 0in
+\oddsidemargin \evensidemargin
+\textwidth 6.5in
+\topmargin .25in
+\textheight 8.7in
+
+\newcommand{\CC}{{\mathbb C}}
+\newcommand{\QQ}{{\mathbb Q}}
+\newcommand{\RR}{{\mathbb R}}
+\newcommand{\ZZ}{{\mathbb Z}}
+\newcommand{\NN}{{\mathbb N}}
+\newcommand{\FF}{{\mathbb F}}
+
+
+\newcommand{\Zerobold}{{\boldsymbol 0}}
+\newcommand{\Onebold}{{\boldsymbol 1}}
+\newcommand{\xbold}{{\boldsymbol x}}
+
+\newcommand{\mfrak}{{\mathfrak m}}
+
+\newcommand{\Acal}{{\mathcal A}}
+\newcommand{\Ncal}{{\mathcal N}}
+\newcommand{\Pcal}{{\mathcal P}}
+\newcommand{\Qcal}{{\mathcal Q}}
+
+\newcommand{\sqbinom}[2]{\genfrac{[}{]}{0pt}{}{#1}{#2}}
+\newcommand{\angbinom}[2]{\genfrac{\langle}{\rangle}{0pt}{}{#1}{#2}}
+
+\newcommand{\qddx}{(d/dx)_{q}}
+
+%\newcommand{\pfcl}{\emph{Proof of claim}}
+\newenvironment{proof}{\paragraph{Proof: }}{\hfill$\blacksquare$}
+
+
+
+\def\multiset#1#2{\ensuremath{\left(\kern-.3em\left(\genfrac{}{}{0pt}{}{#1}{#2}\right)\kern-.3em\right)}}
+
+
+\DeclareMathOperator{\des}{des}
+\DeclareMathOperator{\maj}{maj}
+\DeclareMathOperator{\ev}{ev}
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\trace}{tr}
+\DeclareMathOperator{\inv}{inv}
+
+\newtheorem{problem}{Problem}%[section]
+
+\begin{document}
+
+\begin{center}
+{\bf Julio Soldevilla}
+\\
+{\bf EECS 545 Winter 2018 --- Problem Set 1 }
+\end{center}
+
+\begin{problem}
+\normalfont
+
+\end{problem}
+
+\end{document}

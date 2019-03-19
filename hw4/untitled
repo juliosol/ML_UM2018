@@ -1,0 +1,8 @@
+import numpy as np
+
+from sklearn import datasets, svm
+#fetch original mnist dataset
+from sklearn.datasets import fetch_mldata
+from sklearn.model_selection import cross_val_score
+
+mnist = fetch_mldata('MNIST original', data_home='./')
